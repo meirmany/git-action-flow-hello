@@ -12,7 +12,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: git-action-flow-hello
+  ##IMAGE_NAME: git-action-flow-hello
+  IMAGE_NAME: my-hello-world
   IMAGE_TAG: 1:0.${{ github.run_number}}
 
 
