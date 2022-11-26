@@ -1,1 +1,2 @@
-    FROM hello-world
+    FROM ubuntu/latest
+    CMD ["echo", "Hello World"]
