@@ -19,6 +19,6 @@ jobs:
   - name: Build the hello-docker Docker image
     #working-directory: ./Meir-Dir
     run: |
-       docker build . --file Dockerfile --tag ghcr.io/meirmany/git-action-flow-hello:latest
+       docker build . --file Dockerfile --tag meirmany/git-action-flow-hello:latest
        docker run ghcr.io/meirmany/git-action-flow-hello:latest
        docker push ghcr.io/meirmany/git-action-flow-hello:latest
