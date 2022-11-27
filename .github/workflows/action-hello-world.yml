@@ -24,7 +24,7 @@ jobs:
       - name: Build the Docker image
         id: phase1
         working-directory: Meir-Dir
-        run: docker build . --file Dockerfile --tag $IMAGE_NAME:$IMAGE_TAG
+        run: docker build . --file Dockerfile --tag $REGISTR/$IMAGE_NAME:$IMAGE_TAG
 
 
 
