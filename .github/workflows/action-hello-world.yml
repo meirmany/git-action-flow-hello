@@ -51,7 +51,9 @@ jobs:
 
       - name: Push image
         run: |
+          echo "still good"
           IMAGE_ID=ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG}}
+          echo "failed"
           #tags: ${{ steps.meta.outputs.tags }}
           #labels: ${{ steps.meta.outputs.labels }}
 
