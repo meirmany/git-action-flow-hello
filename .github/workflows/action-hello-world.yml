@@ -73,4 +73,5 @@ jobs:
           #docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
           #docker tag $IMAGE_NAME $IMAGE_ID
           #docker push $IMAGE_ID:$VERSION
+          docker run $IMAGE_ID
           docker push $IMAGE_ID
