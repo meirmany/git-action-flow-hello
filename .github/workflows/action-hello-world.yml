@@ -54,6 +54,7 @@ jobs:
           echo "still good1"
           IMAGE_ID=ghcr.io/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG}}
           echo "still good2"
+          echo "still good3"
           #tags: ${{ steps.meta.outputs.tags }}
           #labels: ${{ steps.meta.outputs.labels }}
 
