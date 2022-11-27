@@ -17,6 +17,7 @@ jobs:
      username: ${{ github.actor }}
      password: ${{ secrets.GITHUB_TOKEN }}
   - name: Build the hello-docker Docker image
+    working-directory: Meir-Dir
     run: |
        docker build . --tag ghcr.io/meirmany/git-action-flow-hello:latest
        docker run ghcr.io/meirmany/git-action-flow-hello:latest
